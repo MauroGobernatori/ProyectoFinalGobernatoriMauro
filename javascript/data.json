@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "PlayStation 1",
+        "precio": 80000,
+        "imagen": "img/PlayStation 1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "PlayStation 2",
+        "precio": 40000,
+        "imagen": "img/PlayStation 2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "PlayStation 3",
+        "precio": 70000,
+        "imagen": "img/PlayStation 3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Xbox",
+        "precio": 37500,
+        "imagen": "img/Xbox.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Xbox 360",
+        "precio": 65000,
+        "imagen": "img/Xbox 360.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Xbox One",
+        "precio": 95000,
+        "imagen": "img/Xbox One.png"
+    },
+    {
+        "id": 7,
+        "nombre": "PlayStation 4",
+        "precio": 125000,
+        "imagen": "img/PlayStation 4.png"
+    },
+    {
+        "id": 8,
+        "nombre": "PlayStation 5",
+        "precio": 245000,
+        "imagen": "img/PlayStation 5.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Nintendo Switch",
+        "precio": 180000,
+        "imagen": "img/Nintendo Switch.png"
+    }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <h1>MauroCorp</h1>
+        <img src="img/Empty Cart.png" alt="" id="cart_icon">
+    </div>
+
+    <div class="div_productos" id="div_productos"></div>
+
+    <!-- "Pop-up" del carrito cuando se toca el ícono -->
+    <div id="cart_popup" class="cart_popup">
+        <div class="cart_content">
+            <span id="close" class="close">&times;</span>
+            <div class="cart_content_header">
+                <h2>Carrito</h2>
+            </div>
+            <div id="div_carrito">
+
+            </div>
+            <div id="div_total">
+
+            </div>
+            <div class="cart_content_footer">
+                <button id="btn_realizar_compra">Realizar compra</button>
+                <button id="btn_vaciar_carrito">Vaciar Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/Producto.js"></script>
+    <script src="javascript/productos.js"></script>
+    <script src="javascript/app.js"></script>
+</body>
+</html>
